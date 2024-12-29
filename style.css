@@ -1,0 +1,499 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --btn: rgb(255, 230, 90);
+    --btn1: rgb(255, 245, 186);
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    background-color: lightgray;
+}
+
+header{
+    background-image: url(./imagens/WhatsApp\ Image\ 2024-12-28\ at\ 23.24.26.jpeg);
+    height: 350px;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.371);
+    color: white;
+}
+
+.itens{
+    background-color: rgba(0, 0, 0, 0.701);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+header h1, header > div.header > div.itens > p{
+    margin: 10px;
+    line-height: 1.2em;
+}
+a.botao{
+    margin: 10px;
+    line-height: 1.2em;
+}
+
+header h1, header > div.header > div.itens > p{
+    font-family: cursive;
+    font-size: 2.3em;
+}
+
+header > p{
+    font-size: 2em;
+}
+
+a.botao{
+    color: black;
+    text-decoration: none;
+    background-color: var(--btn);
+    padding: 8px;
+    border-radius: 5px;
+    width: 120px;
+}
+div.a{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+a.botao:hover{
+    background-color: var(--btn1);
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.781);
+    padding: 10px;
+    font-size: 1.1em;
+    transition: 0.3s;
+}
+
+section.produtos-alta{
+    text-align: center;
+    background-color: rgba(169, 169, 169, 0.42);
+    padding-bottom: 15px;
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.300);
+    /* height: 300px; */
+}
+
+section.produtos-alta h2{
+    font-size: 2em;
+    padding: 20px;
+    font-family: cursive;
+}
+
+div.destaque{
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+
+div.itens2{
+    background-color: red;
+    height: 300px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .500);
+    flex: 0 0 45%;
+}
+
+
+div.it2-txt{
+    height: 20%;
+    width: 100%;
+    background-color: black;
+
+}
+
+div.it2-txt h3{
+    padding-top: 8px;
+    color: white;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+div.it2-txt p{
+
+    color: white;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+div.it2-img{
+    height: 60%;
+    width: 100%;
+    background-color: blue;
+
+  
+}
+
+div.img1, div.img2, div.img3, div.img4, div.img5, div.img6{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;}
+
+div.img1{background-image: url(./imagens/WhatsApp\ Image\ 2024-12-28\ at\ 23.24.24\(1\).jpeg);}
+
+div.img2{background-image: url(./imagens/WhatsApp\ Image\ 2024-12-28\ at\ 23.24.24\(2\).jpeg);}
+
+div.img3{background-image: url(./imagens/WhatsApp\ Image\ 2024-12-28\ at\ 23.24.24\(3\).jpeg);}
+
+div.img4{background-image: url(./imagens/WhatsApp\ Image\ 2024-12-28\ at\ 23.24.25.jpeg);}
+
+div.img5{background-image: url(./imagens/WhatsApp\ Image\ 2024-12-28\ at\ 23.24.25\(1\).jpeg);}
+
+div.img6{background-image: url(./imagens/WhatsApp\ Image\ 2024-12-28\ at\ 23.24.25\(2\).jpeg); background-position: bottom right;}
+
+div.it2-link{
+    background-color: black;
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+div.it2-link div.it2-a{
+    
+    /* background-color: green; */
+ 
+
+}
+
+div.it2-a a{
+    color: var(--btn);
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 1em;
+    text-decoration: none;
+
+}
+
+div.it2-a a:hover{
+    color: var(--btn1);
+    font-size: 1.1em;
+    transition: 0.3s;
+}
+
+article.article-it3{
+    height: 520px;
+    background-color: white;
+    /* border-top: 1px solid rgb(255, 0, 0); */
+    margin: 15px 0px 25px 0px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.300);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+
+div.titulo{
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    font-size: 0.9em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5px auto 15px auto;
+}
+
+/* div.it3 div.it3-h3-centro{
+    width: 76%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+} */
+
+div.centro{
+    display: flex;
+}
+
+div.it3 i{
+    margin: 0px 15px;
+}
+
+div.article{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    flex-direction: column;
+}
+
+div.it3{
+    /* background-color: green; */
+    border: 1px solid rgba(0, 0, 0, 0.225);
+    border-radius: 10px;
+    max-height: 100%;
+    padding: 5px;
+    margin: 10px;
+    line-height: 1.5em;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+div.it3 p{
+    padding: 5px 5px;
+}
+
+div.it3 a{
+    color: black;
+}
+
+div.it3 a:hover{
+    font-weight: bold;
+}
+
+div.article-img{
+    width: 100%;
+    margin-top: 30px;
+    height: 40%;
+    background-image: url(./imagens/WhatsApp\ Image\ 2024-12-28\ at\ 23.24.25\(3\).jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+
+}
+
+/* section.info{
+    background-color: red;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    column-gap: 20px;
+}
+
+div.it4{
+    background-color: blue;
+    flex: 0 0 40%;
+    height: 40%;
+   
+
+} */
+
+
+
+section.info{
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+
+div.it4{
+    background-color: red;
+    height: 370px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .500);
+    flex: 0 0 85%;
+}
+
+div.it42, div.it44{
+    flex-direction: row-reverse;
+}
+
+
+div.it4-txt{
+    height: 100%;
+    width: 50%;
+    padding: 10px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+div.it4-txt p, div.it4-txt h3{
+    
+    font-size: 1em;
+    padding: 5px;
+}
+div.it4-txt h3{
+    color: var(--btn);
+}
+
+div.it4-txt p{
+    color: white;
+}
+
+div.it-img{
+    height: 100%;
+    width: 50%;
+    background-color: blue;
+}
+
+
+
+
+div.it4-img1, div.it4-img2, div.it4-img3, div.it4-img4{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+div.it4-img1{background-image: url(./imagens/WhatsApp\ Image\ 2024-12-29\ at\ 17.28.09\.jpeg);}
+
+div.it4-img2{background-image: url(./imagens/WhatsApp\ Image\ 2024-12-29\ at\ 17.28.08.jpeg);}
+
+div.it4-img3{background-image: url(./imagens/WhatsApp\ Image\ 2024-12-29\ at\ 17.28.14.jpeg);}
+
+div.it4-img4{background-image: url(./imagens/WhatsApp\ Image\ 2024-12-29\ at\ 17.28.10.jpeg); background-position: center 32%;}
+
+article.article-it5{
+    height: 300px;
+    background-color: red;
+
+    margin: 15px 0px 10px 0px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.300);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+div.it5-back{
+    width: 100%;
+    height: 100%;
+    background-image: url(imagens/WhatsApp\ Image\ 2024-12-28\ at\ 23.24.27\(2\).jpeg);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div.it5-txt{
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+div.it5-txt a{
+    margin: 6px 0px 6px 0px;
+}
+div.it5-txt p{
+    padding: 10px;
+}
+div.it5-txt-back{    
+    height: 75%;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.750);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+/* div.it5-txt a{
+    color: black;
+    text-decoration: none;
+    background-color: var(--btn);
+    margin: 5px;
+    padding: 8px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+div.it5-txt a:hover{
+    background-color: var(--btn1);
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.781);
+    padding: 10px;
+    font-size: 1.1em;
+    transition: 0.3s;
+} */
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer p{
+    padding: 8px;
+}
+
+div.obs p{
+    text-align: center;
+    padding: 10px;
+    font-size: 1.3em;
+}
+
+div.obs ul{
+    list-style-position: inside;
+    padding: 10px;
+}
+
+div.obs ul li{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+div.obs ul li a{
+    color: blue;
+}
